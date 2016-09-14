@@ -1,0 +1,9 @@
+INSERT INTO HAE_REFERENCE (LABEL, VALUE, CUSTOM, CATEGORY, DISPLAY_ORDER, DELETED)
+VALUES  ('NDA','NDA',null,'Contract Type','0','0'),
+		('TA','TA',null,'Contract Type','0','0'),
+		('Modification','Modification',null,'Contract Type','0','0'),
+		('Proposal','Proposal',null,'Contract Type','0','0'),
+		('Sub-K', 'Sub-K',null,'Contract Type','0','0'),
+		('1099','1099',null,'Contract Type','0','0'),
+		('Pricing','Pricing',null,'Contract Type','0','0'),
+		('Other','Other',null,'Contract Type','0','0'); 
