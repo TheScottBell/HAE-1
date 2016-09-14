@@ -16,6 +16,11 @@
           <xsd:appinfo source="appian.jpa">@Column(name="NAME")</xsd:appinfo>
         </xsd:annotation>
       </xsd:element>
+      <xsd:element name="type" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="TYPE")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
       <xsd:element name="description" nillable="true" type="xsd:string">
         <xsd:annotation>
           <xsd:appinfo source="appian.jpa">@Column(name="DESCRIPTION")</xsd:appinfo>
