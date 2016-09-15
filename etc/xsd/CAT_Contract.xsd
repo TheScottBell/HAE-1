@@ -56,7 +56,7 @@
           <xsd:appinfo source="appian.jpa">@Column(name="DUE_DATE")</xsd:appinfo>
         </xsd:annotation>
       </xsd:element>
-      <xsd:element name="folderID" nillable="true" type="xsd:date">
+      <xsd:element name="folderID" nillable="true" type="xsd:int">
         <xsd:annotation>
           <xsd:appinfo source="appian.jpa">@Column(name="FOLDER_ID")</xsd:appinfo>
         </xsd:annotation>
