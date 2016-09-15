@@ -8,7 +8,7 @@
     <xsd:sequence>
       <xsd:element name="id" nillable="true" type="xsd:int">
         <xsd:annotation>
-          <xsd:appinfo source="appian.jpa">@Id @Column(name="ID")</xsd:appinfo>
+          <xsd:appinfo source="appian.jpa">@Id @GeneratedValue @Column(name="ID")</xsd:appinfo>
         </xsd:annotation>
       </xsd:element>
       <xsd:element name="name" nillable="true" type="xsd:string">
@@ -54,6 +54,11 @@
       <xsd:element name="dueDate" nillable="true" type="xsd:date">
         <xsd:annotation>
           <xsd:appinfo source="appian.jpa">@Column(name="DUE_DATE")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="folderID" nillable="true" type="xsd:date">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="FOLDER_ID")</xsd:appinfo>
         </xsd:annotation>
       </xsd:element>
       <xsd:element name="createdDate" nillable="true" type="xsd:date">
